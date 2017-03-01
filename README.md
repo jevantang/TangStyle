@@ -22,6 +22,7 @@ WordPress Themes
 ## 版本信息
 * 主题名称：TangStyle
 * 主题作者：唐杰
+* 作者博客：[http://tangjie.me](http://tangjie.me)
 * 首发时间：2012-12-05
 * 最新版本：V1.5
 * 最后更新：2016-09-01
@@ -45,3 +46,6 @@ WordPress Themes
 ## 特别声明
 * 本主题可以自由分享传播，但请署名及注明出处。
 * 本主题免费下载，不限个人或商业使用，但请使用中保留作者版权。
+* 如果愿意，请给作者博客一个友情链接，谢谢。
+    *  链接名称： [产品经理](http://tangjie.me)
+    *  链接地址： [http://tangjie.me](http://tangjie.me)
