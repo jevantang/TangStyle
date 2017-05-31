@@ -20,7 +20,7 @@
 <div id="footer"> &copy; <?php echo get_option('tang_years'); ?>
   <?php bloginfo('name'); ?>.
   Powered by <a href="http://wordpress.org/" rel="external nofollow" target="_blank">WordPress</a>.
-  Theme by <a href="http://tangjie.me/tangstyle" title="TangStyle" target="_blank">TangStyle</a>. <?php echo stripslashes(get_option('tang_icp')); ?> <?php echo stripslashes(get_option('tang_tongji')); ?> </div>
+  Theme by <a href="https://tangjie.me/tangstyle" title="TangStyle" target="_blank">TangStyle</a>. <?php echo stripslashes(get_option('tang_icp')); ?> <?php echo stripslashes(get_option('tang_tongji')); ?> </div>
 <?php wp_footer(); ?>
 </body>
 </html>
