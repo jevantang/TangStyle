@@ -1,6 +1,6 @@
 <div id="sidebar">
   <div id="search">
-    <form id="searchform" method="get" action="<?php bloginfo('home'); ?>">
+    <form id="searchform" method="get" action="<?php bloginfo('siteurl'); ?>">
       <input type="text" value="<?php the_search_query(); ?>" name="s" id="s" size="30" x-webkit-speech />
       <button type="submit" id="searchsubmit"><i class="iconfont">&#337;</i></button>
     </form>
