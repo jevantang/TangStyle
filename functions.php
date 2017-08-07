@@ -202,12 +202,6 @@ return $return;
 add_filter('get_comment_author_link', 'remove_comment_links');
 remove_filter('comment_text', 'make_clickable', 9);
 
-//移除WordPress版本号
-function wpbeginner_remove_version() {
-return '';
-}
-add_filter('the_generator', 'wpbeginner_remove_version');
-
 //文章中第一张图片获取图片
 function catch_that_image() {
 	global $post, $posts;
