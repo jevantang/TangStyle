@@ -20,7 +20,7 @@
       <?php if( function_exists('catch_that_image')&&catch_that_image()!='' ) { ?>
       <div class="thumbnail"><a href="<?php the_permalink();?>" title="<?php the_title();?>"><img src="<?php echo catch_that_image() ?>" alt="<?php the_title();?>"/></a></div>
       <?php } else { } ?>
-      <?php echo mb_strimwidth(strip_tags(apply_filters('content', 'none', $post->post_content)), 0, 330,"..."); ?> <span class="more">[<a href="<?php the_permalink() ?>" title="详细阅读 <?php the_title(); ?>" rel="bookmark">阅读全文</a>]</span>
+      <?php echo mb_strimwidth(strip_tags(apply_filters('content', $post->post_content)), 0, 330,"..."); ?> <span class="more">[<a href="<?php the_permalink() ?>" title="详细阅读 <?php the_title(); ?>" rel="bookmark">阅读全文</a>]</span>
     </div>
     <div class="meta">
       <span class="meat_span"><i class="iconfont">&#279;</i> <?php if(function_exists(the_views)) { the_views('次浏览', true);}?></span>

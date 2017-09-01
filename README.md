@@ -25,8 +25,8 @@ WordPress Themes
 * 作者博客：[https://tangjie.me](https://tangjie.me)
 * 开源协议：GNU General Public License v3.0
 * 首发时间：2012-12-05
-* 最新版本：v1.5
-* 最后更新：2016-09-01
+* 最新版本：v1.5.1
+* 最后更新：2017-09-01
 
 ## 主题配置
 * 1、配置TangStyle的设置（外观 -> 主题 -> TangStyle设置）
