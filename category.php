@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <div id="main">
   <?php while ( have_posts() ) : the_post(); ?>
   <div class="post_list">
@@ -22,7 +21,5 @@
     <?php pagination($query_string); ?>
   </div>
 </div>
-
 <?php get_sidebar('category'); ?>
-
 <?php get_footer(); ?>

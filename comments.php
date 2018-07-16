@@ -3,7 +3,6 @@ if ( post_password_required() )
 	return;
 ?>
 <?php if ( have_comments() ) : ?>
-
 <h3><?php comments_number(__('没有评论','1条评论','%条评论'));?></h3>
 <ol class="comment_list">
   <?php wp_list_comments( array( 'callback' => 'tangstyle_comment', 'style' => 'ol' ) ); ?>

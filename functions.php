@@ -1,4 +1,13 @@
 <?php
+/*
+Theme Name: TangStyle
+Theme URI: https://tangjie.me/tangstyle
+Version: 1.6
+Description: 响应式Web设计，自适应电脑、平板电脑、移动设备。
+Author: 唐杰
+Author URI: https://tangjie.me
+License: GNU General Public License v3.0
+*/
 function tangstyle_page_menu_args( $args ) {
 	$args['show_home'] = true;
 	return $args;
@@ -246,7 +255,6 @@ function comment_mail_notify($comment_id) {
   }
 }
 add_action('comment_post', 'comment_mail_notify');
-
 ?>
 <?php
 $themename = "TangStyle";
@@ -342,7 +350,6 @@ function mytheme_admin() {
     if ( $_REQUEST['saved'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.' 设置已保存。</strong></p></div>';
     if ( $_REQUEST['reset'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.' 设置已重置。</strong></p></div>';
 ?>
-
 <style type="text/css">
 .wrap h2 {color:#09C;}
 .themeadmin {border:1px dashed #999;margin-top:20px;width:420px;position:10px;}
@@ -358,7 +365,7 @@ function mytheme_admin() {
 <div class="wrap">
 	<h2><b><?php echo $themename; ?>主题设置</b></h2>
     <hr />
-	<div>主题作者：<a href="http://tangjie.me" target="_blank">唐杰</a> ¦ 当前版本：<a href="http://tangjie.me/tangstyle" title="TangStyle V1.5" target="_blank">V1.5</a> ¦ 主题介绍、使用帮助及升级请访问：<a href="http://tangjie.me/tangstyle" title="TangStyle" target="_blank">http://tangjie.me/TangStyle</a></div>
+	<div>主题作者：<a href="http://tangjie.me" target="_blank">唐杰</a> ¦ 当前版本：<a href="http://tangjie.me/tangstyle" title="TangStyle v1.6" target="_blank">v1.6</a> ¦ 主题介绍、使用帮助及升级请访问：<a href="http://tangjie.me/tangstyle" title="TangStyle" target="_blank">http://tangjie.me/TangStyle</a></div>
 <form method="post">
 <div class="options">
 <?php foreach ($options as $value) {

@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <div id="main">
   <h1 class="h1"><?php _e("Search"); ?>: <?php the_search_query(); ?></h1>
   <?php while ( have_posts() ) : the_post(); ?>
@@ -17,7 +16,5 @@
     <?php pagination($query_string); ?>
   </div>
 </div>
-
 <?php get_sidebar(); ?>
-
 <?php get_footer(); ?>

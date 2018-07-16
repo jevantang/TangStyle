@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <div id="main">
   <?php while ( have_posts() ) : the_post(); ?>
   <div id="article">
@@ -33,7 +32,5 @@
     <?php comments_template(); ?>
   </div>
 </div>
-
 <?php get_sidebar('single'); ?>
-
 <?php get_footer(); ?>

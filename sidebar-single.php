@@ -14,9 +14,7 @@
       </ul>
     </div>
     <div id="related_post" class="widget">
-      <h3>
-        <?php $category = get_the_category(); echo $category[0]->cat_name; ?>
-        下的最新文章</h3>
+      <h3><?php $category = get_the_category(); echo $category[0]->cat_name; ?>下的最新文章</h3>
       <?php
     		if(is_single()){
     	        $cats = get_the_category();
