@@ -7,7 +7,7 @@
       <span class="meat_span">作者: <?php the_author() ?></span>
       <span class="meat_span">分类: <?php the_category(', ') ?></span>
       <span class="meat_span">发布时间: <?php the_time('Y-m-d H:i') ?></span>
-      <span class="meat_span"><i class="iconfont">&#279;</i> <?php if(function_exists(the_views)) { the_views('次浏览', true);}?></span>
+      <span class="meat_span"><i class="iconfont">&#279;</i> <?php if(function_exists('the_views')) { the_views('次浏览', true);}?></span>
       <span class="meat_span"><i class="iconfont">&#54;</i> <?php comments_popup_link ('没有评论','1条评论','%条评论'); ?></span>
       <?php edit_post_link('编辑', '<span class="meat_span">', '</span>'); ?>
     </div>
